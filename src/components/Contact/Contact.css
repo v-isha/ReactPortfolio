@@ -1,0 +1,35 @@
+.ct{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 100px;
+    
+    
+}
+
+.cthead{
+    font-size: 50px;
+    font-weight: 600;
+    color:  #16213E;
+}
+
+.ctline{
+    background-color: rgba(223, 14, 14, 0.274);
+    height: 5px;
+    width: 30vw;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.ctcard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}

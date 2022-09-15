@@ -1,0 +1,9 @@
+.ft{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}

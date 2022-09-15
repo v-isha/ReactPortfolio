@@ -1,0 +1,48 @@
+.p {
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    /* border: 2px solid rgb(243, 242, 242); */
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+  
+.p-browser {
+    height: 20px;
+    background-color: #54BAB9;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+  }
+  
+.p-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+  }
+  
+.p-img {
+    width: 100%;
+    transition: all 2s ease;
+  }
+  
+.p:hover .p-img {
+    /* transform: translateY(-50%);
+     */
+      margin-top: -50px;
+    }
+  
+  .ti{
+    margin: 20px;
+    background-color:#E94560;
+    color: white;
+    transition: 0.5s ease-out;
+    
+  }
+  .ti:hover{
+    background-color: black;
+    color: white;
+  }

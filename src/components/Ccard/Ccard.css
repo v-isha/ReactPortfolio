@@ -1,0 +1,52 @@
+.cardplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5px 1.5px;
+    background-color: wheat;
+    height: 50vh;
+    width: 40vh;
+    border-radius: 15px;
+    transition: 1s ease-in-out;
+}
+
+.cardplay:hover{
+    background-color:darkgoldenrod;
+    box-shadow: 15px 15px wheat;
+    color:white;
+    margin-right: 50px;
+    margin-left: 25px;
+}
+
+.cimg{
+    width: 100px;
+    height: 100px;
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+    margin: 20px 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.img:hover{
+    margin-top: -1.5px;
+}
+
+.cardbody{
+            margin-top: 55px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between
+}
+.cb1{
+    margin: 10px 10px;
+    font-weight: 400;
+}
+.cb2{
+    font-weight: 600;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}

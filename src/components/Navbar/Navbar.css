@@ -1,0 +1,53 @@
+.navc{
+    height: 50px;
+    background-color:black;
+    
+    
+}
+
+.wrap{
+    
+    padding-top: 5px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navl{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: small;
+    font-weight: 100;
+    transition: 1.5s;
+    
+}
+
+.link:hover{
+    color: #E94560;
+}
+
+
+.logo{
+    width: 100px
+    /* height: 10%; */
+}
+
+.navm{
+    color: white;
+    flex: 2;
+}
+
+.navr{
+    color: white;
+    flex: 1;
+}
