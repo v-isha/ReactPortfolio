@@ -94,3 +94,37 @@
   }
 
 
+@media screen and (max-width: 480px){
+
+   .container{
+     display: flex;
+     flex-direction: column;
+    
+
+  }
+   .i-desc{
+    display: none;
+   }
+   .i-left-wrapper{
+    padding: 0px;
+    margin: 0px;
+    
+   }
+   .i-intro{
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+   .leftc{
+    justify-content: none;
+    align-items: none;
+   }
+  .i-title-wrapper{
+    height: 150vh;
+    margin: 0px;
+  }
+}
+
+ 
+
+  

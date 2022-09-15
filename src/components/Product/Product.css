@@ -46,3 +46,29 @@
     background-color: black;
     color: white;
   }
+
+  @media screen and (max-width:480px) {
+    
+    .p{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0px;
+      
+      
+    }
+    .p-img{
+        width: 100%;
+        
+    }
+
+    .ti{
+      margin: 0px;
+      background-color:#E94560;
+      color: white;
+      font-size: 25px;
+      transition: 0.5s ease-out;
+      
+    }
+
+  }

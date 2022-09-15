@@ -33,3 +33,22 @@
     justify-content: space-between;
     
 }
+
+@media screen and (max-width:480px){
+    .ct{
+        flex-direction: column;
+        padding: 25px;
+        margin: 10px;
+    }
+    .ctline{
+        display: none;
+    }
+    .ctcard{
+        flex-direction: column;
+        width: auto;
+    }
+    .cthead{
+        text-decoration:underline;
+        font-size: 75px;
+    }
+}

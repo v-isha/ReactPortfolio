@@ -52,3 +52,45 @@
       font-weight: 300;
       margin: 20px 0px;
   }
+
+
+  @media screen and (max-width:480px) {
+    .a{
+      flex-direction: column;
+      
+    }
+    .a-left{
+      flex-direction: column;
+      height: 30%;
+      justify-content: none;
+      background-color:antiquewhite;
+    }
+
+    .a-card.bg{
+      display: none;
+    }
+    .a-img{
+      
+      border-radius: 50px;
+    }
+    .a-title{
+      margin-top: 20px;
+      text-align: center;
+      background-color: antiquewhite;
+    }
+    .a-sub{
+      font-weight: 400;
+      font-size: 25px;
+      color: white;
+      background-color: black;
+
+    }
+    .a-desc{
+      font-size: 25px;
+      font-weight: 400;
+    }
+    .a-desc>a{
+      background-color: rgb(110, 110, 241);
+      color: wheat;
+    }
+  }

@@ -7,3 +7,9 @@
     text-align: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width:480px) {
+    .ft{
+        display: none;
+    }
+}
