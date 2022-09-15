@@ -120,9 +120,10 @@
     align-items: none;
    }
   .i-title-wrapper{
-    height: 150vh;
+    height: 150%;
     margin: 0px;
   }
+  
 }
 
  
