@@ -15,7 +15,13 @@
     position: sticky;
     z-index: 2;
   }
-  
+
+.p:hover .p-browser {
+    /* transform: translateY(-50%);
+     */
+      margin-top: -10px;
+    }
+
 .p-circle {
     width: 6px;
     height: 6px;
@@ -32,7 +38,7 @@
 .p:hover .p-img {
     /* transform: translateY(-50%);
      */
-      margin-top: -50px;
+      margin-top: -10px;
     }
   
   .ti{
