@@ -8,7 +8,7 @@ import lm from '../../img/lmm.png'
 const Contact = () => {
   return (
     <div className='ct'>
-        <div className="cthead">Conatct</div>
+        <div className="cthead">Contact</div>
         <div className='ctline'></div>
         <div className='ctcard'>
                 <Ccard mm={em} head="Email:" info="vshlkmr81@gmail.com" ink="https://www.linkedin.com/in/vshlkmr81/"/>
